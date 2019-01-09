@@ -18,9 +18,13 @@ app.get("/", (req, res, next) => {
 });
 app.get("/api/*", (req, res, next) => {
     let api_config = getAPIConfig(req.url);
-    console.log(api_config);
     if (api_config) {
-        res.sendStatus(api_config.response_code);
+        if (api_config.json) {
+            res.status(api_config.response_code).json(api_config.json);
+        } else {
+            res.sendStatus(api_config.response_code);
+        }
+
     } else {
         res.sendStatus(500);
     }
