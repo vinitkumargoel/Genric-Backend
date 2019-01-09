@@ -1,0 +1,23 @@
+{
+  "name": "genric-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinitkumargoel/Genric-Backend.git"
+  },
+  "author": " <Your Name> (example.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinitkumargoel/Genric-Backend/issues"
+  },
+  "homepage": "https://github.com/vinitkumargoel/Genric-Backend#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
