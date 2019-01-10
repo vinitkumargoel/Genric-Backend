@@ -1,0 +1,4 @@
+{
+    "port": "5014",
+    "dbURL": "mongodb://127.0.0.1/genric_backend"
+}

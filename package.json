@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/vinitkumargoel/Genric-Backend#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "mongooses": "^1.0.0",
     "path": "^0.12.7"
   }
 }
